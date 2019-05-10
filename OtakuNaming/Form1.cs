@@ -14,6 +14,10 @@ namespace OtakuNaming
         public Form1()
         {
             InitializeComponent();
+
+            titleImage.Load(@"D:\c#\title.JPG");
+            titleImage.SizeMode = PictureBoxSizeMode.StretchImage;
         }
+
     }
 }
